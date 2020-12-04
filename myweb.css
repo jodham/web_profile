@@ -1,0 +1,194 @@
+body
+{
+   text-align: center;
+   margin: 0;
+   padding: 0;
+}
+nav
+{
+    width: 100%;
+    height: 70px;
+    background: blue;
+    top: 0;
+}
+nav .icon
+{
+    width: 20px;
+    height: 20px;
+    color: white;
+    margin-left: 2px;
+}
+nav a
+{
+    padding: 15px;
+    color: white;
+    line-height: 21px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    text-decoration: none;
+}
+nav a:hover
+{
+    padding: 15px;
+    color: blue;
+    line-height: 21px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background: #f1f1f1;
+    border-bottom: 3px solid purple;
+}
+nav .active
+{
+    padding: 10px;
+    color: blue;
+    line-height: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background: #f1f1f1;
+    border-bottom: 3px solid purple;
+}
+.slide_content
+{
+   margin-top: 5px;
+   width: 400px;
+   height: 250px;
+   background: aliceblue;
+   box-shadow: 0 15px 20px rgba(0,0,0,0.1);
+}
+.content_form
+{
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+    margin-top: 8px;
+}
+.content_form a
+{
+    text-decoration: none;
+}
+.footer
+{
+    width: 400px;
+    height: 200px;
+    margin-top:10px;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+}
+#findus_page
+{
+    width: 190px;
+    height: 190px;
+    float: left;
+}
+#contactus_page
+{
+width: 190px;
+height: 190px;
+float: right;
+margin-right: 5px;
+}
+#findus_page label
+{
+    color: lightseagreen;
+    font-weight: bold;
+    font-size: 20px;
+}
+#findus_page a
+{
+    text-decoration: none;
+}
+#contactus_page label
+{
+    color: lightseagreen;
+    font-weight: bold;
+    font-size: 20px;
+}
+#contactus_page a
+{
+    text-decoration: none;
+}
+#separator
+{
+    width: 8px;
+    height: 190px;
+    border-radius: 20px;
+    background: gray;
+    display: inline-flex;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.5);
+}
+.slider
+{
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	background-color: #d95f29;
+}
+.slider figure div
+{
+	float: right;
+	width: 200px;
+}
+.slider figure img
+{
+	width: 200px;
+
+}
+.slider figure
+{
+	position: relative;
+	width: 400%;
+	margin: 0;
+	left: 0;
+	animation: 20s JODHAM infinite;
+}
+@keyframes JODHAM
+{
+    0%{left: 0%}
+    10%{left: 0%}
+    12%{left: -100%}
+    22%{left: -100%}
+    24%{left: -200%}
+    34%{left: -200%}
+    36%{left: -300%}
+    46%{left: -300%}
+    48%{left: -400%}
+    58%{left: -400%}
+    60%{left: -300%}
+    70%{left: -300%}
+    72%{left: -200%}
+    82%{left: -200%}
+    84%{left: -100%}
+    94%{left: -100%}
+    96%{left: 0%}
+    98%{left: 0%}
+}
+@media (max-width: 800px)
+{
+nav a
+{
+    padding: 15px;
+    color: white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 75px;
+    }
+ nav{
+        position: fixed;
+        width: 100%;
+        height: 60px;
+        background: #2c3e50;
+        top: 0;
+        left: -100%;
+        left: 0;
+        text-align: center;
+        transition: all .5s;
+        font-size: 10px;
+    }
+
+
+}
+
+
+
+    }
+
+}
