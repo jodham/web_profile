@@ -118,19 +118,19 @@ margin-right: 5px;
 }
 .slider
 {
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 	overflow: hidden;
 	background-color: #d95f29;
 }
 .slider figure div
 {
 	float: right;
-	width: 200px;
+	width: 250px;
 }
 .slider figure img
 {
-	width: 200px;
+	width: 250px;
 
 }
 .slider figure
@@ -198,6 +198,15 @@ nav a
 }
 
 
+}
+.elipse{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    shape-outside: ellipse(20% 50%);
+    clip-path: ellipse(20% 50%);
+    background: lightblue;
 }
 
 
