@@ -48,14 +48,6 @@ nav .active
     background: #f1f1f1;
     border-bottom: 3px solid purple;
 }
-.slide_content
-{
-   margin-top: 5px;
-   width: 400px;
-   height: 250px;
-   background: aliceblue;
-   box-shadow: 0 15px 20px rgba(0,0,0,0.1);
-}
 .content_form
 {
     width: 400px;
@@ -116,58 +108,20 @@ margin-right: 5px;
     display: inline-flex;
     box-shadow: 0 15px 20px rgba(0,0,0,0.5);
 }
-.slider
-{
-	width: 200px;
-	height: 200px;
-	overflow: hidden;
-	background-color: #d95f29;
-}
-.slider figure div
-{
-	float: right;
-	width: 200px;
-}
-.slider figure img
-{
-	width: 200px;
 
-}
-.slider figure
-{
-	position: relative;
-	width: 600%;
-	margin: 0;
-	left: 0;
-	animation: 20s JODHAM infinite;
-}
-@keyframes JODHAM
-{
-    0%{left: 0%}
-    10%{left: 0%}
-    12%{left: -100%}
-    22%{left: -100%}
-    24%{left: -200%}
-    34%{left: -200%}
-    36%{left: -300%}
-    46%{left: -300%}
-    48%{left: -400%}
-    58%{left: -400%}
-    62%{left: -500%}
-    68%{left: -500%}
-    70%{left: -400%}
-    70%{left: -400%}
-    72%{left: -300%}
-    82%{left: -300%}
-    84%{left: -200%}
-    94%{left: -200%}
-    95%{left: -100%}
-    96%{left: -100%}
-    98%{left: 0%}
-    99%{left: 0%}
-}
 @media (max-width: 800px)
 {
+
+    #navbar {
+  overflow: hidden;
+  background-color: white;
+  padding: 10px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 99%;
+  top: 0;
+  z-index: 99;
+}
 nav a
 {
     padding: 15px;
@@ -177,7 +131,7 @@ nav a
     width: 75px;
     }
  nav{
-        position: fixed;
+        
         width: 100%;
         height: 60px;
         background: #2c3e50;
@@ -188,16 +142,120 @@ nav a
         transition: all .5s;
         font-size: 10px;
     }
-    .slide_content
-{
-   margin-top: 65px;
-   width: 400px;
-   height: 250px;
-   background: aliceblue;
-   box-shadow: 0 15px 20px rgba(0,0,0,0.1);
-}
+
 
 
 }
 
 
+#navbar {
+  overflow: hidden;
+  background-color: white;
+  padding: 10px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 99%;
+  top: 0;
+  z-index: 99;
+}
+
+
+/* slide images ************************* */
+
+#content{
+    background: #f1f1f1;
+    width: 80%;
+    margin-left: 10%;
+    padding: 5px;
+    margin-top: 20px;
+}
+.slideshow-container {
+  width: 80%;
+  position: relative;
+  margin: auto;
+  margin-top: 1px;
+}
+#slideimage{
+    width: 70%;
+    height: 400px;
+  }
+  
+
+/* Caption text */
+.text{
+  color: crimson;
+  font-size: 15px;
+  padding: 8px 12px;
+  bottom: 20%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  animation-name: enlarge;
+  animation-duration: 4s;
+}
+@keyframes enlarge{
+    from {font-size: 15px;} 
+    to {font-size: 30px;}
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: crimson;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .1} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .1} 
+  to {opacity: 1}
+ 
+}
+/* on smalll screeen */
+@media only screen and (max-width: 800px){
+    #slideimage{
+    width: 100%;
+
+  }
+  .slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+#content{
+    background: #f1f1f1;
+    width: 80%;
+    margin-left: 10%;
+    padding: 5px;
+    margin-top: 70px;
+}
+}
