@@ -148,6 +148,7 @@ nav a
 .footer
 {
     display: block;
+    height: 500px;
 }
 #separator
 {
@@ -157,6 +158,12 @@ nav a
     background: gray;
     box-shadow: 0 15px 20px rgba(0,0,0,0.5);
     margin: 0;
+}
+#contactus_page
+{
+
+float: left;
+margin-left: 5px;
 }
 }
 
