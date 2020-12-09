@@ -188,27 +188,28 @@ margin-left: 5px;
   top: 0;
   z-index: 100;
 }
-.elipse{
-    float: left;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    shape-outside: ellipse(20% 50%);
-    clip-path: ellipse(20% 50%);
-    background: lightblue;
-}
+
 
 
 
 
 /*------------------body-content styling------------------*/
 #mainframeholder{
-    background: lightblue;
+    background: white;
     margin-top: 75px;
 
 }
 
 
+#profile_pic_holder{
+    width: 200px;
+    height: 200px;
+    background: lightblue;
+    border-radius: 50%;
+}
+#profile_name{
+    font-size: 15px;
+    font-weight: bold;
 }
 /*------------------body-content styling--------------*/
 #main_content
