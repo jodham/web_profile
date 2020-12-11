@@ -218,7 +218,7 @@ margin-left: 5px;
     font-weight: bold;
 }
     #profile_pic{
-    width: 60%;
+    width: 65%;
     height: 300px;
     background: cyan;
     border-radius: 20px;
@@ -226,24 +226,26 @@ margin-left: 5px;
     overflow: hidden;
 }
     #profileDetails{
-    width: 40%;
+    width: 35%;
     height: 300px;
     background: white;
-    margin-left: 20px;
+    margin-left: 5px;
     margin-top: 15px;
     border-radius: 20px;
-    text-align: center;
 }   
 #profileDetails p{
     text-transform: uppercase;
     margin-top: 0;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
 }
 #profileDetails label{
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 18px;  
+    font-size: 15px; 
+    float: left; 
+    text-shadow: 2px 2px 4px cyan;
+    font-family: Georgia, serif;
 }
 #profile_pic img{
     width: 100%;
