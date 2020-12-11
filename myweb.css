@@ -218,16 +218,15 @@ margin-left: 5px;
     font-weight: bold;
 }
     #profile_pic{
-    width: 50%;
+    width: 60%;
     height: 300px;
     background: cyan;
     border-radius: 20px;
     margin-top: 15px;
-    margin-right: 20px;
     overflow: hidden;
 }
     #profileDetails{
-    width: 50%;
+    width: 40%;
     height: 300px;
     background: white;
     margin-left: 20px;
